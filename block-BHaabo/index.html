@@ -1,0 +1,92 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF=8">
+    <title>Gallery</title>
+    
+    <link rel="stylesheet" href="sty.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet"> 
+        <script
+            src="https://kit.fontawesome.com/6177ab27d6.js" crossorigin="anonymous">
+        </script>
+
+  </head>
+  <body>
+    <header>
+        <div class="header">
+            <img class="brand" src="assets/altcampus.png" alt="logo">
+            
+            <nav class="link">
+                <a href="#">
+                    <img src="assets/icons/bell.svg"  alt="bell icon">
+                </a>
+                <a href="#">Sarah Jone</a>
+                <a href="#">
+                    <img src="assets/icons/user.svg" alt="user icon">
+                </a>
+            </nav>
+        </div>
+    </header>
+        <main class="main">
+            <aside class="container-1">
+                <div class="dashboard">
+                    <div class="dash">
+                        <img src="assets/icons/dashboard.svg" alt="dashboard"> Dashboard
+                    </div>
+                    <div class="dash-article">
+                        <img src="assets/icons/article.svg" alt="article"> Article
+                    </div>
+                    <div class="dash">
+                        <img src="assets/icons/analytics.svg" alt="analytics"> Analytics
+                    </div>
+                    <div class="dash">
+                        <img src="assets/icons/inbox.svg" alt="inbox"> Inbox
+                    </div>
+                    <div class="dash">
+                        <img src="assets/icons/setting.svg" alt="setting"> Settings
+                    </div>
+                    <div class="log">
+                    <a class="logout" href="#">
+                        <img src="assets/icons/log-out.svg" alt="logout-image"> 
+                        Log Out</a>
+                    </div>
+
+                </div>
+            </aside>
+
+            <article class="container-2">
+                <div class="child-1">
+                    <img class="child-1-image" src="assets/01.png" alt="picture of article">
+                </div>
+                <div>
+                    <h1>Why we are doing AltCampus ?</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, ex labore explicabo impedit nam necessitatibus repellat iusto deleniti dicta quo neque libero qui ipsum debitis, odit totam ut vitae? Soluta repellendus id dolorem at?
+                        </p>
+                </div>
+                <div class="more">Read More</div>
+            </article>
+            
+        </main>      
+        
+        <footer class="footer">
+            <p>&copy AltCampus</p>
+            <span class="inside-footer">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-square"></i></a>             <a href="#">
+                <a href="#">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </span>
+        </footer>
+    </body>
+</html>
